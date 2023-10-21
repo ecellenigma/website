@@ -15,7 +15,7 @@ const AboutPage = () => {
                             <p className='text-[#EC6E41] p-4 font-thin'>Business need to go beyond the interest of their companies to the communities they serve.</p> <span className='text-[#EC6E41] p-4'>-RATAN TATA</span> 
                         </div>
                         <div className='w-full sm:w-1/2'>
-                            <Image src="./images.about_img1.png" alt='Image'/>
+                            <Image src="/images.about_img1.png"  width={"80"} height={"80"}  alt='Image'/>
                         </div>
                     </div>
                     <div className='h-[60%]'>
@@ -27,7 +27,7 @@ const AboutPage = () => {
                         <p className='text-white bg-gradient-to-r from-[#011640] via-rgba-gray-700 to-transparent  p-4 font-thin rounded-xl'>Enigma E-Cell aims to transform itself into a platform to launch the leaders of tomorrow towards the path of success. We plan to widen our scope of impact by allowing not only students but also working professionals, retired personnel, etc. to have an opportunity to fabricate their vision into reality.</p>
                     </div>
                     <div className=''>
-                        <Image className='' src="./images.about_img1.png" alt='Image'/>
+                        <Image className='' src="/images.about_img1.png"  width={"80"} height={"80"} alt='Image'/>
                     </div>
                 </div>
             </div>

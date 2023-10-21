@@ -1,16 +1,13 @@
+import HeroPage from './hero';
+import AboutPage from './about';
+import EventsPage from './events';
 
-import HeroPage from "./hero"
-import AboutPage from "./about"
-import EventsPage from "./events"
-
-const LandingPage = () => {
+export default function LandingPage() {
   return (
-    <div className="hero_bg">
-      <HeroPage/>
-      <AboutPage/>
-      <EventsPage/>
-    </div>
-  )
+    <>
+      <HeroPage />
+      <AboutPage />
+      <EventsPage />
+    </>
+  );
 }
-
-export default LandingPage

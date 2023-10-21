@@ -1,4 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+// @ts-ignore
 
-module.exports = nextConfig
+/** @type {import("next").NextConfig} */
+const config = {
+  reactStrictMode: true,
+  swcMinify: true,
+  experimental: { serverActions: true, appDir: true },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+};

@@ -8,6 +8,8 @@ const EventsCard = (props: any) => {
         <div className=" h-[150px] w-[150px] bg-[#815514]  flex  items-center justify-center rounded-md">
           <div className="h-[150px] w-[150px]">
             <Image
+            width={150}
+            height={150}
               className="h-full w-fit"
               src={props.img}
               alt="Ideathon logo"

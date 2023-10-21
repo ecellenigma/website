@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.hero_bg{
+body {
   background-color: #010D26;
   min-height: 100vh;
 }
