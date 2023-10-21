@@ -8,6 +8,7 @@ const NavbarPage = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  //This is the cloned one..
 
   return (
     <nav className='bg-[#242526] p-4 rounded-md flex flex-col sm:flex-row items-center justify-between'>
