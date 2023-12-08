@@ -1,6 +1,8 @@
 import HeroPage from './hero';
 import AboutPage from './about';
 import EventsPage from './events';
+import GallerySection from './gallerySection';
+
 
 export default function LandingPage() {
   return (
@@ -8,6 +10,7 @@ export default function LandingPage() {
       <HeroPage />
       <AboutPage />
       <EventsPage />
+      <GallerySection/> 
     </>
   );
 }
