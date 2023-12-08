@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const EventsCard = (props: any) => {
   return (
-    <div className="">
+    <div className="h-fit">
       <div className="flex items-center justify-center flex-col bg-white rounded-md">
-        <div className=" h-[150px] w-[150px] bg-[#815514]  flex  items-center justify-center rounded-md">
+        <div className="h-[150px] w-[150px] bg-[#815514]  flex  items-center justify-center rounded-md">
           <div className="h-[150px] w-[150px]">
             <Image
             width={150}
@@ -26,9 +26,9 @@ const EventsCard = (props: any) => {
 
 const EventsPage = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-fit mb-10">
       <div className="w-full flex items-center justify-center">
-        <h2 className="text-[#F2522E] border-b border-b-[#F2522E] w-fit p-4 text-2xl">
+        <h2 className="text-[#F2522E] border-b border-b-[rgb(242,82,46)] w-fit p-4 text-2xl">
           EVENTS
         </h2>
       </div>
